@@ -1,11 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { HomePage } from "./ui/user/pages/HomePage";
+
 
 function App() {
   return (
-    <div className="flex bg-slate-500 ">
-     末盛クリニック
+    <div>
+      <HomePage />
     </div>
   );
 }
