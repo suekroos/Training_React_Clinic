@@ -1,14 +1,15 @@
 import hospital from '../../images/hospital.png'
+import { Header } from '../components/Header'
 
 export const HomePage = () => {
 
 
     return(
        <div>
-            <div className="bg-slate-500 text-center h-36">
-                ヘッダー部分です
+            <div className="bg-slate-500 text-center">
+                <Header />
             </div>
-            <div className="bg-red-400 text-center h-auto">
+            <div className="bg-red-400 text-center">
                 画像アニメーション部分です
                 <img src={hospital} alt="医療画像です"/>
                 <img src={hospital} alt="医療画像です"/>
