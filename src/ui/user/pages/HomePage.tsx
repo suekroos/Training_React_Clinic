@@ -1,5 +1,6 @@
 import hospital from '../../images/hospital.png'
 import { Header } from '../components/Header'
+import { ImageAnimation } from '../components/ImageAnimation'
 
 export const HomePage = () => {
 
@@ -10,10 +11,7 @@ export const HomePage = () => {
                 <Header />
             </div>
             <div className="bg-red-400 text-center">
-                画像アニメーション部分です
-                <img src={hospital} alt="医療画像です"/>
-                <img src={hospital} alt="医療画像です"/>
-                <img src={hospital} alt="医療画像です"/>
+                <ImageAnimation />
 
              </div>
              <div className='bg-yellow-200 text-center'>

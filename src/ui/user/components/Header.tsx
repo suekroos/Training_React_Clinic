@@ -4,7 +4,7 @@ import right from '../../images/rightcircle.png'
 export const Header = () => {
     return(
         <header>
-            <div className='flex justify-between font-serif'>
+            <div className='flex justify-between font-serif text-lg'>
                 <div className='flex m-5 text-left'>
                     <img src={logo} alt="ホームページのロゴです" className='h-16 w-16'/>
                     <p className='ml-2'>
