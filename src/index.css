@@ -4,7 +4,7 @@
 
 @layer components{
     .img-auto-anime{
-        @apply m-5 absolute w-full opacity-0 animate-img_auto
+        @apply m-5 absolute w-full opacity-0 animate-img-auto rounded-md
     }
     .img-auto-anime:nth-of-type(1){
         @apply animation-delay-0
