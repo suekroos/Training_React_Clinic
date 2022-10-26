@@ -2,10 +2,15 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
+    animationDelay: {
+      0: "0s",
+      10: "1s",
+      20: "2s",
+    },
     extend: {
         animation:{
           'popup': 'popup 8s cubic-bezier(0.22, 1, 0.36, 1) 1 forwards',
-          'img_auto': 'change-img-anime 30s infinite',
+          'img_auto': 'change-img-anime 3s infinite',
         },
       keyframes:{
         'popup':{

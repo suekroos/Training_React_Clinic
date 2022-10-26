@@ -5,10 +5,10 @@ import medical_image3 from '../../images/medical_woman.jpg'
 export const ImageAnimation = () => {
     return(
         <div className='flex justify-center '>
-            <div className=''>
-                <img src={medical_image1} alt='medical_image' className='animate-popup img_auto' width='600' />
-                <img src={medical_image2} alt='medical_image' className='animate-popup img_auto' width='600' />
-                <img src={medical_image3} alt='medical_image' className='animate-popup img_auto' width='600' />
+            <div className='relative w-96 h-96 max-w-full'>
+                <img src={medical_image1} alt='medical_image' className='img-auto-anime' />
+                <img src={medical_image2} alt='medical_image' className='img-auto-anime' />
+                <img src={medical_image3} alt='medical_image' className='img-auto-anime' />
             </div>
         </div>
        
