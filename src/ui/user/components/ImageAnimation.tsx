@@ -2,6 +2,7 @@ import medical_image1 from '../../images/medical_bear.jpg'
 import medical_image2 from '../../images/medical_ope.jpg'
 import medical_image3 from '../../images/medical_woman.jpg'
 
+// 画像のアニメーション表示
 export const ImageAnimation = () => {
     return(
         <div className='flex justify-center '>
