@@ -10,7 +10,7 @@ export const HomePage = () => {
             <div className="bg-slate-500 text-center">
                 <Header />
             </div>
-            <div className="bg-red-400 text-center">
+            <div className="">
                 <ImageAnimation />
 
              </div>
