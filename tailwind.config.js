@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     animationDelay: {
       0: "0s",
-      10: "3s",
-      20: "6s",
+      3: "3s",
+      6: "6s",
     },
     extend: {
         animation:{

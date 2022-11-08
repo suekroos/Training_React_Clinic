@@ -7,7 +7,7 @@ export const HomePage = () => {
 
     return(
        <div>
-            <div className="bg-slate-500 text-center">
+            <div className="text-center bg-sky-100">
                 <Header />
             </div>
             <div className="">
