@@ -1,6 +1,7 @@
 import hospital from '../../images/hospital.png'
 import { Header } from '../components/Header'
 import { ImageAnimation } from '../components/ImageAnimation'
+import { MedicalInfo } from '../components/MedicalInfo'
 
 export const HomePage = () => {
 
@@ -14,9 +15,8 @@ export const HomePage = () => {
                 <ImageAnimation />
 
              </div>
-             <div className='bg-yellow-200 text-center'>
-                診療のご案内
-                <img src={hospital} alt="医療画像です"/>
+             <div className="">
+                <MedicalInfo />
              </div>
              <div className='bg-green-200 text-center'>
                 胃内視鏡検査・大腸内視鏡検査

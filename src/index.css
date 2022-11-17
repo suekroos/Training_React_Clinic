@@ -34,6 +34,13 @@
         @apply animation-delay-6
     }
 
+    .medicalTreatment-block{
+        @apply ml-20 grid justify-items-center
+    }
+    .medicalTreatment-image{
+        @apply h-20 w-20 mb-5
+    }
+
     
     
 }

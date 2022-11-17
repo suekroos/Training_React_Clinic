@@ -30,7 +30,7 @@ export const Header = () => {
                 </nav>
                 <div className='flex flex-col justify-center mr-5'>
                     <div className='flex bg-blue-400  p-2 rounded-xl'>
-                        <a href='' className='text-white '>内視鏡WEB予約</a>
+                        <a href='' className='text-white '>WEB予約</a>
                         <img src={right} alt="ホームページのロゴです" className='h-5 w-5 ml-2 mt-1/2'/>
                     </div>
                     <p>00-0000-0000</p>
