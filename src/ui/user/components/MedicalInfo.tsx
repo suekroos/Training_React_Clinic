@@ -14,51 +14,56 @@ export const MedicalInfo = () => {
             </div>
             <ul className="flex justify-center">
                 <li>
-                    <a href=''>
-                        <div className='medicalTreatment-block'>
+                    <a href='' className='medicalTreatment-block'>
+                        <div className='medicalTreatment-imageblock'>
                             <img src={stomach} alt='胃腸内科' className='medicalTreatment-image'></img>
+                        </div>
                             <p>胃腸内科・消化器内科</p>
-                        </div>
+                        
                     </a>
                 </li>
                 <li>
-                    <a href=''>
-                        <div className='medicalTreatment-block'>
+                    <a href=''  className='medicalTreatment-block'>
+                        <div className='medicalTreatment-imageblock'>
                             <img src={internalMedical} alt='内科' className='medicalTreatment-image'></img>
+                        </div>
                             <p>内科</p>
-                        </div>
+                        
                     </a>
                 </li>
                 <li>
-                    <a href=''>
-                        <div className='medicalTreatment-block'>
+                    <a href=''  className='medicalTreatment-block'>
+                        <div className='medicalTreatment-imageblock'>
                             <img src={intestine} alt='炎症性腸疾患内科' className='medicalTreatment-image'></img>
+                        </div>
                             <p>炎症性腸疾患内科</p>
-                        </div>
+                        
                     </a>
                 </li>
                 <li>
-                    <a href=''>
-                        <div className='medicalTreatment-block'>
+                    <a href=''  className='medicalTreatment-block'>
+                        <div className='medicalTreatment-imageblock'>
                             <img src={anus} alt='肛門内科' className='medicalTreatment-image'></img>
+                        </div>
                             <p>肛門内科</p>
-                        </div>
                     </a>
                 </li>
                 <li>
-                    <a href=''>
-                        <div className='medicalTreatment-block'>
+                    <a href=''  className='medicalTreatment-block'>
+                        <div className='medicalTreatment-imageblock'>
                             <img src={inspections} alt='各種検査' className='medicalTreatment-image'></img>
-                            <p>各種検査</p>
                         </div>
+                            <p>各種検査</p>
+                        
                     </a>
                 </li>
                 <li>
-                    <a href=''>
-                        <div className='medicalTreatment-block'>
+                    <a href=''  className='medicalTreatment-block'>
+                        <div className='medicalTreatment-imageblock'>
                             <img src={examination} alt='各種検診・メタボ検診・人間ドック' className='medicalTreatment-image'></img>
-                            <p>各種検診・メタボ検診・<br/>人間ドック</p>
                         </div>
+                            <p>各種検診・メタボ検診・<br/>人間ドック</p>
+                        
                     </a>
                 </li>
                 

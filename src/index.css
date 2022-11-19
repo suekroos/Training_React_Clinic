@@ -35,12 +35,14 @@
     }
 
     .medicalTreatment-block{
-        @apply ml-20 grid justify-items-center
+        @apply grid justify-items-center h-40 w-40 ml-5 hover:animate-bounce
+    }
+    .medicalTreatment-imageblock{
+        @apply grid justify-items-center items-center h-28 w-28 mb-5 rounded-full bg-sky-200 
     }
     .medicalTreatment-image{
-        @apply h-20 w-20 mb-5
+        @apply h-20 w-20 
     }
-
     
     
 }
