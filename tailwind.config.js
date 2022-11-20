@@ -23,7 +23,10 @@ module.exports = {
         //   'medical_image2': "url('./src/ui/images/medical_ope.jpg')",
         //   'medical_image3': "url('./src/ui/images/medical_woman.jpg')",
         // },
-      keyframes:{
+        backgroundImage:{
+          'doctor': "url('/src/ui/images/doctor.png')"
+        },
+        keyframes:{
         // 'popup':{
         //   '0%' :{
         //     transform: 'translateY(0)',

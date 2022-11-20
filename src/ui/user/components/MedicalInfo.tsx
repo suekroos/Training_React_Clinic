@@ -9,7 +9,7 @@ export const MedicalInfo = () => {
 
     return(
         <div>
-            <div className="text-center text-3xl font-serif mb-10">
+            <div className="text-center text-2xl font-serif mb-10">
                 <h1>診療のご案内</h1>
             </div>
             <ul className="flex justify-center">

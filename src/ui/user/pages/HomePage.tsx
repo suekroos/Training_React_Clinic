@@ -2,6 +2,7 @@ import hospital from '../../images/hospital.png'
 import { Header } from '../components/Header'
 import { ImageAnimation } from '../components/ImageAnimation'
 import { MedicalInfo } from '../components/MedicalInfo'
+import { Endoscopy } from '../components/Endoscopy'
 
 export const HomePage = () => {
 
@@ -22,9 +23,8 @@ export const HomePage = () => {
                 胃内視鏡検査・大腸内視鏡検査
                 <img src={hospital} alt="医療画像です"/>
              </div>
-             <div className='bg-blue-200-200 text-center'>
-                ご挨拶
-                <img src={hospital} alt="医療画像です"/>
+             <div className="">
+             <Endoscopy />
              </div>
              <div className='bg-amber-600 text-center'>
                 院長ノート
