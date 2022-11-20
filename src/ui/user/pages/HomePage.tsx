@@ -3,6 +3,7 @@ import { Header } from '../components/Header'
 import { ImageAnimation } from '../components/ImageAnimation'
 import { MedicalInfo } from '../components/MedicalInfo'
 import { Endoscopy } from '../components/Endoscopy'
+import { Greeting } from '../components/Greeting'
 
 export const HomePage = () => {
 
@@ -24,7 +25,7 @@ export const HomePage = () => {
                 <img src={hospital} alt="医療画像です"/>
              </div>
              <div className="">
-             <Endoscopy />
+               <Greeting />
              </div>
              <div className='bg-amber-600 text-center'>
                 院長ノート
