@@ -21,7 +21,9 @@
     }
 
     .full-circle{
-        @apply animate-img-auto rounded-full bg-sky-400 w-5 h-5 mb-2
+        /* @apply animate-img-auto rounded-full bg-sky-400 w-5 h-5 mb-2 */
+        @apply rounded-full bg-sky-400 w-5 h-5 mb-2
+        
     }
 
     .full-circle:nth-of-type(1){
