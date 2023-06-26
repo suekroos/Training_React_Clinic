@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx,css}",],
+  content: ["./src/**/*.{js,jsx,ts,tsx,css}"],
   theme: {
     animationDelay: {
       0: "0s",
@@ -8,25 +8,25 @@ module.exports = {
       6: "6s",
     },
     extend: {
-        animation:{
-          // 'popup': 'popup 3s cubic-bezier(0.22, 1, 0.36, 1) infinite',
-          'img-auto': 'change-img-anime 9s infinite',
-        },
-        width:{
-          '900': '900px'
-        },
-        height:{
-          '700': '700px'
-        },
-        // backgroundImage:{
-        //   'medical_image1': "url('../../images/medical_bear.jpg')",
-        //   'medical_image2': "url('./src/ui/images/medical_ope.jpg')",
-        //   'medical_image3': "url('./src/ui/images/medical_woman.jpg')",
-        // },
-        backgroundImage:{
-          'doctor': "url('/src/ui/images/doctor.png')"
-        },
-        keyframes:{
+      animation: {
+        // 'popup': 'popup 3s cubic-bezier(0.22, 1, 0.36, 1) infinite',
+        "img-auto": "change-img-anime 9s infinite",
+      },
+      width: {
+        900: "900px",
+      },
+      height: {
+        700: "700px",
+      },
+      // backgroundImage:{
+      //   'medical_image1': "url('../../images/medical_bear.jpg')",
+      //   'medical_image2': "url('./src/ui/images/medical_ope.jpg')",
+      //   'medical_image3': "url('./src/ui/images/medical_woman.jpg')",
+      // },
+      backgroundImage: {
+        doctor: "url('/src/ui/images/doctor.png')",
+      },
+      keyframes: {
         // 'popup':{
         //   '0%' :{
         //     transform: 'translateY(0)',
@@ -34,7 +34,7 @@ module.exports = {
         //   },
         //   '0%, 100%' :{
         //     transform: 'scale(1.0)',
-            
+
         //   },
         //   '100%' :{
         //     transform: 'translateY(0)',
@@ -43,27 +43,25 @@ module.exports = {
         //     opacity: '1',
         //   },
         // },
-        'change-img-anime':{
-          '0%' :{
-            opacity: '0', 
+        "change-img-anime": {
+          "0%": {
+            opacity: "0",
           },
-          '30%' :{
-            opacity: '1', 
+          "30%": {
+            opacity: "1",
           },
-          '36%' :{
-            opacity: '1', 
+          "36%": {
+            opacity: "1",
           },
-          '45%' :{
-            opacity: '0', 
+          "45%": {
+            opacity: "0",
           },
-          '100%' :{
-            opacity: '0', 
+          "100%": {
+            opacity: "0",
           },
         },
       },
     },
   },
-  plugins: [
-    require('tailwindcss-animation-delay'),
-  ],
-}
+  plugins: [require("tailwindcss-animation-delay")],
+};
