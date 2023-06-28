@@ -5,10 +5,16 @@ export const Endoscopy = () => {
     <div>
       <div className="flex p-20">
         <div>
-          <img src={checkup} alt='checkup_image' className="p-10 rounded-md"></img>
+          <img
+            src={checkup}
+            alt="checkup_image"
+            className="rounded-md p-10"
+          ></img>
         </div>
-        <div className="p-2 justify-items-center text-center flex-auto">
-          <h1 className="text-lg font-serif font-bold ">胃内視鏡検査・大腸内視鏡検査</h1>
+        <div className="flex-auto justify-items-center text-center">
+          <h1 className="font-serif text-lg font-bold">
+            胃内視鏡検査・大腸内視鏡検査
+          </h1>
         </div>
       </div>
     </div>
