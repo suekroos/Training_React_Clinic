@@ -51,10 +51,10 @@ export const Endoscopy = () => {
               </ul>
             </div>
             <div>
-              <div className="after: relative mt-5 rounded-full border border-solid border-blue-400 p-2 text-lg font-bold text-blue-400 after:absolute after:right-0 after:mr-2 after:text-blue-400 after:content-['➩']">
+              <div className="btn-detail">
                 <a href="">当クリニックの内視鏡検査の特徴</a>
               </div>
-              <div className="after: relative mt-5 rounded-full border border-solid border-blue-400 p-2 text-lg font-bold text-blue-400 after:absolute after:right-0 after:mr-2 after:text-blue-400 after:content-['➩']">
+              <div className="btn-detail">
                 <a href="">当院の内視鏡検査の実績</a>
               </div>
             </div>
