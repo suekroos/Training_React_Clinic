@@ -1,6 +1,7 @@
 import checkup from "../../images/checkup.jpg";
 import stomach from "../../images/stomach.png";
 import intestine from "../../images/intestine.png";
+import PlayArrowOutlinedIcon from "@mui/icons-material/PlayArrowOutlined";
 
 export const Endoscopy = () => {
   return (
@@ -18,7 +19,7 @@ export const Endoscopy = () => {
             <h1 className="font-mono text-xl font-bold">
               胃内視鏡検査・大腸内視鏡検査
             </h1>
-            <p className="mt-5 text-left font-serif text-lg leading-6">
+            <p className="font-serif mt-5 text-left text-lg leading-6">
               当クリニックでは、麻酔や炭酸ガスを用いた苦痛の少ない方法で、
               からだにやさしい内視鏡検査を心がけています。
             </p>
@@ -52,10 +53,16 @@ export const Endoscopy = () => {
             </div>
             <div>
               <div className="btn-detail">
-                <a href="">当クリニックの内視鏡検査の特徴</a>
+                <a href="" className="block">
+                  当クリニックの内視鏡検査の特徴
+                  <PlayArrowOutlinedIcon className="absolute right-3 mt-1" />
+                </a>
               </div>
               <div className="btn-detail">
-                <a href="">当院の内視鏡検査の実績</a>
+                <a href="" className="block">
+                  当院の内視鏡検査の実績
+                  <PlayArrowOutlinedIcon className="absolute right-3 mt-1" />
+                </a>
               </div>
             </div>
           </div>
