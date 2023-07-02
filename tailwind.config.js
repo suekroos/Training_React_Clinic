@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx,css}"],
   theme: {
+    fontFamily: {
+      icon: "Material Icons",
+    },
     animationDelay: {
       0: "0s",
       3: "3s",
