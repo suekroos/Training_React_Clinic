@@ -4,6 +4,7 @@ import { ImageAnimation } from "../components/ImageAnimation";
 import { MedicalInfo } from "../components/MedicalInfo";
 import { Endoscopy } from "../components/Endoscopy";
 import { Greeting } from "../components/Greeting";
+import { News } from "../components/News";
 
 export const HomePage = () => {
   return (
@@ -13,6 +14,9 @@ export const HomePage = () => {
       </div>
       <div className="">
         <ImageAnimation />
+      </div>
+      <div className="">
+        <News />
       </div>
       <div className="">
         <MedicalInfo />
