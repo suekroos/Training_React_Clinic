@@ -43,6 +43,10 @@
   .medicalTreatment-image {
     @apply h-20 w-20;
   }
+  /* 院長ノートのアニメーションは変更しなければいけない
+     変更前：2023/7/7
+     変更後：
+  */
   .note-block {
     @apply ml-10 grid h-52 w-52 justify-items-center hover:animate-bounce;
   }
