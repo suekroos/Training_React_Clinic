@@ -5,6 +5,7 @@ import { MedicalInfo } from "../components/MedicalInfo";
 import { Endoscopy } from "../components/Endoscopy";
 import { Greeting } from "../components/Greeting";
 import { News } from "../components/News";
+import { DirectorNote } from "../components/DirectorNote";
 
 export const HomePage = () => {
   return (
@@ -27,9 +28,8 @@ export const HomePage = () => {
       <div className="">
         <Greeting />
       </div>
-      <div className="bg-amber-600 text-center">
-        院長ノート
-        <img src={hospital} alt="医療画像です" />
+      <div className="">
+        <DirectorNote />
       </div>
       <div className="bg-indigo-500 text-center">
         病院情報

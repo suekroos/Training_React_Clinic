@@ -35,13 +35,25 @@
   }
 
   .medicalTreatment-block {
-    @apply ml-5 grid h-40 w-40 justify-items-center hover:animate-bounce;
+    @apply ml-5 grid h-32 w-32 justify-items-center hover:animate-bounce;
   }
   .medicalTreatment-imageblock {
     @apply grid h-28 w-28 items-center justify-items-center rounded-full bg-slate-200;
   }
   .medicalTreatment-image {
     @apply h-20 w-20;
+  }
+  .note-block {
+    @apply ml-10 grid h-52 w-52 justify-items-center hover:animate-bounce;
+  }
+  .note-imageblock {
+    @apply grid h-48 w-48 items-center justify-items-center rounded-full border-2 border-blue-400;
+  }
+  .note-image {
+    @apply h-32 w-32;
+  }
+  .note-text {
+    @apply ml-10 w-52 break-words font-bold text-blue-400;
   }
   .btn-detail {
     @apply relative mt-5 block cursor-pointer rounded-full border border-solid border-blue-400 p-2 text-lg font-bold text-blue-400;
