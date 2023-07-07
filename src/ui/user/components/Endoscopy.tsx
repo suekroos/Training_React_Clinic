@@ -6,12 +6,12 @@ import PlayArrowOutlinedIcon from "@mui/icons-material/PlayArrowOutlined";
 export const Endoscopy = () => {
   return (
     <div>
-      <div className="flex p-10">
+      <div className="div -10 flex">
         <div className="basis-1/2">
           <img
             src={checkup}
             alt="checkup_image"
-            className="rounded-md p-10"
+            className="div -10 rounded-md"
           ></img>
         </div>
         <div className="max-w-full basis-1/2 justify-items-center text-center">
@@ -19,34 +19,38 @@ export const Endoscopy = () => {
             <h1 className="font-mono text-xl font-bold">
               胃内視鏡検査・大腸内視鏡検査
             </h1>
-            <p className="font-serif mt-5 text-left text-lg leading-6">
+            <div className="font-serif mt-5 text-left text-lg leading-6">
               当クリニックでは、麻酔や炭酸ガスを用いた苦痛の少ない方法で、
               からだにやさしい内視鏡検査を心がけています。
-            </p>
+            </div>
             <div className="mt-10">
               <ul className="flex justify-center">
                 <li>
-                  <a href="" className="medicalTreatment-block">
-                    <div className="medicalTreatment-imageblock">
-                      <img
-                        src={stomach}
-                        alt="胃内視鏡検査"
-                        className="medicalTreatment-image"
-                      ></img>
+                  <a href="">
+                    <div className="medicalTreatment-block">
+                      <div className="medicalTreatment-imageblock">
+                        <img
+                          src={stomach}
+                          alt="胃内視鏡検査"
+                          className="medicalTreatment-image"
+                        ></img>
+                      </div>
                     </div>
-                    <p>胃内視鏡検査</p>
+                    <div className="medicalTreatment-text">胃内視鏡検査</div>
                   </a>
                 </li>
                 <li>
-                  <a href="" className="medicalTreatment-block">
-                    <div className="medicalTreatment-imageblock">
-                      <img
-                        src={intestine}
-                        alt="大腸内視鏡検査"
-                        className="medicalTreatment-image"
-                      ></img>
+                  <a href="">
+                    <div className="medicalTreatment-block">
+                      <div className="medicalTreatment-imageblock">
+                        <img
+                          src={intestine}
+                          alt="大腸内視鏡検査"
+                          className="medicalTreatment-image"
+                        ></img>
+                      </div>
                     </div>
-                    <p>大腸内視鏡検査</p>
+                    <div className="medicalTreatment-text">大腸内視鏡検査</div>
                   </a>
                 </li>
               </ul>

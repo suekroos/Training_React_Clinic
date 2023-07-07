@@ -43,6 +43,9 @@
   .medicalTreatment-image {
     @apply h-20 w-20;
   }
+  .medicalTreatment-text {
+    @apply ml-5 w-32 break-words text-center font-bold;
+  }
   /* 院長ノートのアニメーションは変更しなければいけない
      変更前：2023/7/7
      変更後：
