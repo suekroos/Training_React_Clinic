@@ -8,7 +8,7 @@ import PlayArrowOutlinedIcon from "@mui/icons-material/PlayArrowOutlined";
 export const DirectorNote = () => {
   return (
     <div className="mt-10 block">
-      <div className="m-auto flex w-72 justify-center text-center">
+      <div className="m-auto flex w-72 justify-center text-center ">
         <div>
           <p className="text-blue-400">
             疾患などさらに詳しく知りたい方はこちら！
@@ -34,6 +34,17 @@ export const DirectorNote = () => {
                 </div>
               </a>
             </div>
+            <div className="m-auto ml-10 h-20 w-56 text-center">
+              <a href="" className="exam-link">
+                内視鏡検査
+              </a>
+              <a href="" className="exam-link">
+                大腸内視鏡検査
+              </a>
+              <a href="" className="exam-link">
+                胃内視鏡検査
+              </a>
+            </div>
             <div className="note-text">
               <a href="">当クリニックの内視鏡検査実績</a>
             </div>
@@ -48,6 +59,17 @@ export const DirectorNote = () => {
                 ></img>
               </div>
             </a>
+            <div className="m-auto ml-10 h-20 w-56 text-center">
+              <a href="" className="exam-link">
+                内視鏡検査
+              </a>
+              <a href="" className="exam-link">
+                大腸内視鏡検査
+              </a>
+              <a href="" className="exam-link">
+                胃内視鏡検査
+              </a>
+            </div>
             <div className="note-text">
               <a href="">質と高い診断を支える高精度内視鏡と画質</a>
             </div>
@@ -58,10 +80,21 @@ export const DirectorNote = () => {
                 <img
                   src={medicaldevice}
                   alt="大腸・胃内視鏡検査"
-                  className="note-image"
+                  className="note-image mix-blend-multiply"
                 ></img>
               </div>
             </a>
+            <div className="m-auto ml-10 h-20 w-56 text-center">
+              <a href="" className="exam-link">
+                内視鏡検査
+              </a>
+              <a href="" className="exam-link">
+                大腸内視鏡検査
+              </a>
+              <a href="" className="exam-link">
+                胃内視鏡検査
+              </a>
+            </div>
             <div className="note-text">
               <a href="">
                 高精度の内視鏡検査について
@@ -76,6 +109,11 @@ export const DirectorNote = () => {
                 <img src={exam} alt="内視鏡検査" className="note-image"></img>
               </div>
             </a>
+            <div className="m-auto ml-10 h-20 w-56 text-center">
+              <a href="" className="exam-link">
+                内視鏡検査
+              </a>
+            </div>
             <div className="note-text">
               <a href="">
                 高精度な内視鏡けんさについて

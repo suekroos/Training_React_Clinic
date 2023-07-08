@@ -48,19 +48,28 @@
   }
   /* 院長ノートのアニメーションは変更しなければいけない
      変更前：2023/7/7
-     変更後：
+     変更後：2023/7/8
   */
   .note-block {
-    @apply ml-10 grid h-52 w-52 justify-items-center hover:animate-bounce;
+    @apply ml-10 grid h-52 w-52 justify-items-center;
   }
   .note-imageblock {
-    @apply grid h-48 w-48 items-center justify-items-center rounded-full border-2 border-blue-400;
+    @apply grid h-48 w-48 items-center justify-items-center rounded-full border-4 border-blue-400 duration-300 hover:-translate-y-1 hover:scale-105 hover:bg-blue-400;
+  }
+  .note-imageblock::after {
+    @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white opacity-0 content-['Detail'];
+  }
+  .note-imageblock:hover::after {
+    @apply opacity-100;
   }
   .note-image {
     @apply h-32 w-32;
   }
   .note-text {
     @apply ml-10 w-52 break-words font-bold text-blue-400;
+  }
+  .exam-link {
+    @apply mr-1 mb-1 inline-block bg-blue-400 p-1 text-white;
   }
   .btn-detail {
     @apply relative mt-5 block cursor-pointer rounded-full border border-solid border-blue-400 p-2 text-lg font-bold text-blue-400;

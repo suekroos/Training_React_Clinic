@@ -12,7 +12,6 @@ module.exports = {
     },
     extend: {
       animation: {
-        // 'popup': 'popup 3s cubic-bezier(0.22, 1, 0.36, 1) infinite',
         "img-auto": "change-img-anime 9s infinite",
       },
       width: {
@@ -21,31 +20,10 @@ module.exports = {
       height: {
         700: "700px",
       },
-      // backgroundImage:{
-      //   'medical_image1': "url('../../images/medical_bear.jpg')",
-      //   'medical_image2': "url('./src/ui/images/medical_ope.jpg')",
-      //   'medical_image3': "url('./src/ui/images/medical_woman.jpg')",
-      // },
       backgroundImage: {
         doctor: "url('/src/ui/images/doctor.png')",
       },
       keyframes: {
-        // 'popup':{
-        //   '0%' :{
-        //     transform: 'translateY(0)',
-        //     opacity: '0'
-        //   },
-        //   '0%, 100%' :{
-        //     transform: 'scale(1.0)',
-
-        //   },
-        //   '100%' :{
-        //     transform: 'translateY(0)',
-        //   },
-        //   '80%, 100%' :{
-        //     opacity: '1',
-        //   },
-        // },
         "change-img-anime": {
           "0%": {
             opacity: "0",
