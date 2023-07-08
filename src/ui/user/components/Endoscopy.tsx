@@ -5,8 +5,8 @@ import PlayArrowOutlinedIcon from "@mui/icons-material/PlayArrowOutlined";
 
 export const Endoscopy = () => {
   return (
-    <div>
-      <div className="div -10 flex">
+    <div className="mt-20 block">
+      <div className="flex">
         <div className="basis-1/2">
           <img
             src={checkup}
