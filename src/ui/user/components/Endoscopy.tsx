@@ -11,7 +11,7 @@ export const Endoscopy = () => {
           <img
             src={checkup}
             alt="checkup_image"
-            className="div -10 rounded-md"
+            className="m-auto rounded-md"
           ></img>
         </div>
         <div className="max-w-full basis-1/2 justify-items-center text-center">
