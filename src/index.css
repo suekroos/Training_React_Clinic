@@ -74,10 +74,16 @@
   .btn-detail {
     @apply relative mt-5 block cursor-pointer rounded-full border border-solid border-blue-400 p-2 text-lg font-bold text-blue-400;
   }
+  .btn-detail-full {
+    @apply relative mt-5 block cursor-pointer rounded-full border border-solid border-blue-400 bg-blue-400 p-2 text-lg font-bold text-white;
+  }
   /* .btn-detail::after {
     @apply absolute right-0 mr-2 mb-3 block text-blue-400;
   } */
   .btn-detail:hover {
     @apply block bg-slate-200;
+  }
+  .btn-detail-full:hover {
+    @apply block opacity-80;
   }
 }
