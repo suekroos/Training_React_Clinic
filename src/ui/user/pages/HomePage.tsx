@@ -7,6 +7,7 @@ import { Greeting } from "../components/Greeting";
 import { News } from "../components/News";
 import { DirectorNote } from "../components/DirectorNote";
 import { HospitalInfomation } from "../components/HospitalInfomation";
+import { Footer } from "../components/Footer";
 
 export const HomePage = () => {
   return (
@@ -35,7 +36,9 @@ export const HomePage = () => {
       <div className="">
         <HospitalInfomation />
       </div>
-      <div className="h-36 bg-green-200 text-center">フッター部分です</div>
+      <div className="">
+        <Footer />
+      </div>
     </div>
   );
 };

@@ -80,6 +80,18 @@
   .info-imageblock:hover::after {
     @apply opacity-100;
   }
+  .footer-block {
+    @apply mx-16 flex flex-col;
+  }
+  .footer-maintext {
+    @apply text-left text-lg font-bold;
+  }
+  .footer-subtext {
+    @apply my-5 ml-5 text-left leading-8 opacity-80;
+  }
+  .footer-infotext {
+    @apply my-5 ml-5 mb-10 text-left font-bold leading-8;
+  }
   .exam-link {
     @apply mr-1 mb-1 inline-block bg-blue-400 p-1 text-white;
   }
