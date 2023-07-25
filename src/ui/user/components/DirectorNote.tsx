@@ -11,7 +11,7 @@ export const DirectorNote = () => {
       <div className="m-auto flex w-72 justify-center text-center ">
         <div>
           <p className="text-blue-400">
-            疾患などさらに詳しく知りたい方はこちら！
+            疾患などさらに詳しく知りたい方はこちら
           </p>
           <p className="border-t-2 border-b-2 border-blue-400 text-lg">
             院長
